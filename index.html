@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dataset</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <h2>Clases de Repaso Js Dataset</h2>
+
+  <button>Mover los gatitos en lista</button>
+
+  <div class="container">
+
+    <div class="card" data-nombre="artilugia" data-sexo="hembra" data-color="gris" data-temp="extrovertido">
+      <img src="http://www.placekitten.com/200" />
+      <div class="title">
+        <h4>Artilugia</h4>
+      </div>
+    </div>
+
+    <div class="card" data-nombre="boris" data-sexo="indistinto" data-color="rayado" data-temp="calmo">
+      <img src="http://www.placekitten.com/300" />
+      <div class="title">
+        <h4>Boris</h4>
+      </div>
+    </div>
+
+    <div class="card" data-nombre="Mimi" data-sexo="hembra" data-color="gris" data-temp="calmo">
+      <img src="http://www.placekitten.com/400" />
+      <div class="title">
+        <h4>Mimi</h4>
+      </div>
+    </div>
+
+    <div class="card" data-nombre="pippin" data-sexo="macho" data-color="melange" data-temp="amigable">
+      <img src="http://www.placekitten.com/500" />
+      <div class="title">
+        <h4>Pippin</h4>
+      </div>
+    </div>
+
+    <div class="card" data-nombre="pepo" data-sexo="macho" data-color="melange" data-temp="amigable">
+      <img src="http://www.placekitten.com/600" />
+      <div class="title">
+        <h4>Pepo</h4>
+      </div>
+    </div>
+  </div>
+
+  <form>
+    <div>
+    <label for="filtro-nombre"> Filtrar por nombre
+      <input type="text" id="filtro-nombre">
+    </label>
+    </div>
+<!-- 
+    <div class="personalidad-gatos">
+      <label for="personalidad">Personalidad</label>
+      <button type="button" class="filtro-personalidad" data-temp="extrovertido">
+        Extrovertido
+      </button>
+      <button type="button" class="filtro-personalidad" data-temp="calmo">
+        Calmo
+      </button>
+      <button type="button" class="filtro-personalidad" data-temp="amigable">
+        Amigable
+      </button>
+      <button type="button" class="filtro-personalidad" data-temp="todos">
+        Todos
+      </button>
+    </div> -->
+
+
+    <div class="colores-gatos">
+      <label for="colores">Colores</label>
+      <input type="checkbox" name="filtro-colores" value="gris"/>
+        Gris
+   
+      <input type="checkbox" name="filtro-colores" value="rayado"/>
+        Rayado
+ 
+      <input type="checkbox" name="filtro-colores" value="melange">
+        Melange
+    
+      <input type="checkbox" name="filtro-colores" value="todos">
+        Todos
+   
+    </div>
+
+
+    <div class="sexo-gatos">
+      <label>Sexo <br />
+        <input type="radio" class="radio" name="sexo" value="macho" />
+        Macho
+        <input type="radio" class="radio" name="sexo" value="hembra" />
+        Hembra
+        <input type="radio" class="radio" name="sexo" value="indistinto" />
+        Indistinto
+      </label>
+    </div>
+  </form>
+
+  <script src="index.js"></script>
+
+
+
+</body>
+
+</html>
